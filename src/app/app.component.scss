@@ -1,0 +1,166 @@
+body{
+    // background: linear-gradient((90deg),deeppink,rgb(65, 65, 196));
+    background: black;
+    background-size: cover;
+
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // margin-bottom: 1rem;
+    color: white;
+    text-shadow: 2px 2px rgb(224, 6, 122);
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid rgb(77, 231, 77);
+    width: 350px;
+    padding-left:15px;
+    padding-right: 15px;
+    padding: 1rem 5rem 3rem 3rem;
+    border-radius: 20px;
+}
+
+.text-field{
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    position: relative;
+    height: 55px;
+    width: 87%;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    padding-left: 37px;
+    color: white;
+    background: none;
+    // margin-top: 1.5rem;
+    font-size: 1rem;
+}
+
+::-webkit-input-placeholder{
+    color: white;
+    font-size: 1rem;
+    text-shadow: 1px 1px rgb(224, 6, 122);
+}
+
+i{
+    position: relative;
+    top: -35px;
+    left: 10px;
+    color: white;
+}
+
+.text-field label{
+    position: relative;
+    top: -75px;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    // justify-content: space-between;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.bottom a{
+    margin-left: 6rem;
+    color: white;
+    text-decoration: none;
+}
+
+.bottom a:hover{
+    text-decoration: underline;
+}
+
+.submit{
+    width: 100%;
+    height: 47px;
+    font-size: 1rem;
+    border: 5px solid green;
+    outline: none;
+    border-radius: 30px;
+    background: none;
+    color: white;
+
+}
+
+
+
+.submit:hover{
+    border:linear-gradient(deeppink, blue, green,orange,purple);
+    animation: rotate 1.5s linear infinite;
+}
+
+.submit:hover{
+    filter: blur(7px);
+}
+
+@keyframes rotate {
+    0%{
+       filter:hue-rotate(0deg);
+    }
+    100%{
+          filter: hue-rotate(360deg);
+    }
+  }
+
+
+  .whole{
+    height: 110vh;
+    margin-top: 10rem;
+    background: url(https://static.vecteezy.com/system/resources/previews/002/402/683/original/night-starry-sky-and-pink-clouds-sunrise-free-vector.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position:cover;
+    width: 40rem;
+    // justify-content: center;
+
+}
+
+h3,.h1{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    color: white;
+   
+}
+
+h3{
+    text-shadow: 1px 1px greenyellow;
+    font-size: 1.5rem;
+}
+
+.start{
+    margin-top: 4rem;
+}
+
+.bidhead{
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 5rem;
+    font-family:Zeyada;
+    margin: 0;
+    margin-top: 2rem;
+    color: pink;
+}
